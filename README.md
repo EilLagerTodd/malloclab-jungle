@@ -130,3 +130,13 @@ memlib.{c,h} :
 드라이버 플래그 목록을 가져오려면(To get a list of the driver flags):
 
     unix> mdriver -h
+    
+---
+
+진행방법
+
+    1. make 후 ./mdriver 를 실행하면 out of memory 에러 발생
+    2. 책에 있는 implicit list 방식대로 malloc을 구현해서 해당 에러를 없애기
+    3. 이후 (시간이 된다면) explicit list와 seglist 등을 활용해 점수를 높이기
+    
+    Tip: ./mdriver -f traces/binary2-bal.rep 와 같이 특정 세트로만 채점 할 수 있다.
