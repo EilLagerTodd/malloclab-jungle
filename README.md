@@ -130,11 +130,3 @@ memlib.{c,h} :
 드라이버 플래그 목록을 가져오려면(To get a list of the driver flags):
 
     unix> mdriver -h
-=======
-	unix> mdriver -h
-	
-
----
-
-> 번역
->>>>>>> 3eaeab949e6ad1c464b4470063daf501dfcea992
