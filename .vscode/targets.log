@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May  8 01:19:09 2022
+# Make data base, printed on Sun May  8 01:35:10 2022
 
 # Variables
 
@@ -85,7 +85,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = en_US.UTF-8
 # environment
-VSCODE_CWD = /home/euisung
+VSCODE_CWD = /home/euisung/malloclab-jungle
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -143,7 +143,7 @@ VSCODE_CODE_CACHE_PATH = /home/euisung/.config/Code/CachedData/57fd6d0195bb9b9d1
 # environment
 LOGNAME = euisung
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -171,7 +171,7 @@ CC = gcc
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9794f999-69f4-4bb4-bfef-6bbc16da3c9d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-be7435f1-32f5-40d8-9162-6a91f6fefda3.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -188,6 +188,8 @@ XDG_CURRENT_DESKTOP = Unity
 LC_TELEPHONE = en_US.UTF-8
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /home/euisung
 # environment
 TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
 # default
@@ -253,11 +255,11 @@ TERM = xterm-256color
 # environment
 TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
 # environment
-VSCODE_PID = 18010
+VSCODE_PID = 21515
 # environment
 TERMINATOR_UUID = urn:uuid:78ff2741-f636-4d10-b69a-8bdddeac1b58
 # variable set hash-table stats:
-# Load=122/1024=12%, Rehash=0, Collisions=26/148=18%
+# Load=123/1024=12%, Rehash=0, Collisions=26/149=17%
 
 # Pattern-specific Variable Values
 
@@ -265,9 +267,9 @@ TERMINATOR_UUID = urn:uuid:78ff2741-f636-4d10-b69a-8bdddeac1b58
 
 # Directories
 
-# . (device 2050, inode 5114873): 28 files, no impossibilities.
+# . (device 2050, inode 5114873): 36 files, no impossibilities.
 
-# 28 files, no impossibilities in 1 directories.
+# 36 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -276,9 +278,9 @@ TERMINATOR_UUID = urn:uuid:78ff2741-f636-4d10-b69a-8bdddeac1b58
 # Files
 
 handin:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 25):
 	cp mm.c $(HANDINDIR)/$(TEAM)-$(VERSION)-mm.c
@@ -447,9 +449,9 @@ ftimer.h:
 # strcache buffers: 1 (0) / strings = 43 / storage = 379 B / avg = 8 B
 # current buf: size = 8162 B / used = 379 B / count = 43 / avg = 8 B
 
-# strcache performance: lookups = 86 / hit rate = 50%
+# strcache performance: lookups = 94 / hit rate = 54%
 # hash-table stats:
-# Load=43/8192=1%, Rehash=0, Collisions=1/86=1%
-# Finished Make data base on Sun May  8 01:19:09 2022
+# Load=43/8192=1%, Rehash=0, Collisions=1/94=1%
+# Finished Make data base on Sun May  8 01:35:10 2022
 
  
